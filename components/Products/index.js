@@ -47,7 +47,7 @@ export default function product() {
       title: "Bolinho de Mandioca",
       descripition: "Bolinho de mandioca com carne seca.",
       price: "36,00",
-      img: "/petiscos/bolinhodetilapia.jpeg",
+      img: "/petiscos/bolinhodemandioca.jpeg",
       details: "400g",
     },
     {

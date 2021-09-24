@@ -1,16 +1,16 @@
-import styled from 'styled-components';
-import Image from 'next/image'
+import styled from "styled-components";
+import Image from "next/image";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
 `;
 
 export const Line = styled.div`
-  background: #FFC107;
+  background: #ffc107;
   width: 100%;
   height: 2px;
 `;
@@ -21,8 +21,7 @@ export const TitleContent = styled.div`
 
   h1 {
     text-transform: uppercase;
-    color: #FFC107;
-    margin-bottom: .5rem;
+    color: #ffc107;
+    margin-bottom: 0.5rem;
   }
 `;
-
