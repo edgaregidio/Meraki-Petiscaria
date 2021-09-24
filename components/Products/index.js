@@ -1,5 +1,12 @@
 import React from "react";
-import { ProductList, Line2, LinePrice, Circle, ImageProduct } from "./styles";
+import {
+  ProductList,
+  Line2,
+  LinePrice,
+  Circle,
+  ImageProduct,
+  CardPhoto,
+} from "./styles";
 
 export default function product() {
   const data = [
@@ -8,7 +15,7 @@ export default function product() {
       title: "Batata Frita",
       descripition: "",
       price: "27,00",
-      img: "/logob.png",
+      img: "/petiscos/batatafrita.jpeg",
       details: "500g",
     },
     {
@@ -16,7 +23,7 @@ export default function product() {
       title: "Batata Cheddar e Bacon 500g",
       descripition: "",
       price: "32,00",
-      img: "/logob.png",
+      img: "/petiscos/batatacheddar.jpeg",
       details: "500g",
     },
     {
@@ -24,7 +31,7 @@ export default function product() {
       title: "Bolinho de costela suina",
       descripition: "Bolinho de costela suina com Barbecue",
       price: "36,00",
-      img: "/logob.png",
+      img: "/petiscos/bolinhodecostela.jpeg",
       details: "10ud",
     },
     {
@@ -32,7 +39,7 @@ export default function product() {
       title: "Bolinho de Tilápia",
       descripition: "Recheado com queijo e alcaparras.",
       price: "38,00",
-      img: "/logob.png",
+      img: "/petiscos/bolinhodetilapia.jpeg",
       details: "",
     },
     {
@@ -40,7 +47,7 @@ export default function product() {
       title: "Bolinho de Mandioca",
       descripition: "Bolinho de mandioca com carne seca.",
       price: "35,00",
-      img: "/logob.png",
+      img: "/petiscos/bolinhodetilapia.jpeg",
       details: "10ud",
     },
     {
@@ -48,7 +55,7 @@ export default function product() {
       title: "Disco de Costela",
       descripition: "Com cheddar e bacon.",
       price: "38,00",
-      img: "/logob.png",
+      img: "/petiscos/discodecostela.jpeg",
       details: "10ud",
     },
     {
@@ -56,7 +63,7 @@ export default function product() {
       title: "Disco de Carne",
       descripition: "Disco de carne recheado com queijo.",
       price: "37,00",
-      img: "/logob.png",
+      img: "/petiscos/discodecarne.jpeg",
       details: "10ud",
     },
     {
@@ -64,7 +71,7 @@ export default function product() {
       title: "Frango a Kiev",
       descripition: "Recheado com provolone.",
       price: "48,00",
-      img: "/logob.png",
+      img: "/petiscos/frangoakiev.jpeg",
       details: "600g",
     },
     {
@@ -72,7 +79,7 @@ export default function product() {
       title: "Isca de franco Empanada",
       descripition: "",
       price: "38,00",
-      img: "/logob.png",
+      img: "/petiscos/iscadefrangoempanado.jpeg",
       details: "10ud",
     },
     {
@@ -80,7 +87,7 @@ export default function product() {
       title: "Palitinho Mineiro",
       descripition: "Provolone empanado.",
       price: "38,00",
-      img: "/logob.png",
+      img: "/petiscos/palitinhomineiro.jpeg",
       details: "10ud",
     },
     {
@@ -88,17 +95,17 @@ export default function product() {
       title: "Pastel de carne",
       descripition: "Recheado com queijo.",
       price: "32,00",
-      img: "/logob.png",
+      img: "/petiscos/pasteldecarne.jpeg",
       details: "10ud",
     },
-    {
-      id: 12,
-      title: "",
-      descripition: "",
-      price: "35,00",
-      img: "/logob.png",
-      details: "10ud",
-    },
+    // {
+    //   id: 12,
+    //   title: "",
+    //   descripition: "",
+    //   price: "35,00",
+    //   img: "/petiscos/",
+    //   details: "10ud",
+    // },
   ];
 
   return (
@@ -117,13 +124,15 @@ export default function product() {
                 <h1>{product.details}</h1>
               </Circle>
             </Line2>
+            {/* <CardPhoto> */}
             <ImageProduct
               alt="Imagem do produto"
               layout="responsive"
-              width={150}
-              height={70}
+              width={130}
+              height={170}
               src={product.img}
             />
+            {/* </CardPhoto> */}
           </ProductList>
         );
       })}
