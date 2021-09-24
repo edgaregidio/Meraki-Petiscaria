@@ -54,8 +54,9 @@ export default function Sauces() {
               </LinePrice>
               <ImageSauces
                 alt="Imagem do molho"
-                width={130}
-                height={170}
+                unptimized
+                width={800}
+                height={1024}
                 src={sauces.img}
               />
             </Line2>

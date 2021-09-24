@@ -26,9 +26,7 @@ export const ListaSauces = styled.ul`
 export const Line2 = styled.div`
   display: flex;
   flex-direction: column;
-  /* width: 100%; */
-  /* height: 20rem; */
-  background: red;
+  width: 100%;
   align-items: center;
 `;
 
