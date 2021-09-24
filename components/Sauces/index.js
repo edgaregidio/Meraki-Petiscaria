@@ -6,35 +6,35 @@ export default function Sauces() {
     {
       id: 1,
       title: "Barbecue",
-      description: "Aqui vai a descrição do molho",
+      description: "",
       price: "3,00",
       img: "/sauces/molhobarbecue.jpeg",
     },
     {
       id: 2,
       title: "Ketchup",
-      description: "Aqui vai a descrição do molho",
+      description: "",
       price: "3,00",
       img: "/sauces/molhobarbecue.jpeg",
     },
     {
       id: 3,
       title: "Molho de Alho",
-      description: "Aqui vai a descrição do molho",
+      description: "",
       price: "3,00",
       img: "/sauces/molhotartaro.jpeg",
     },
     {
       id: 4,
       title: "Molho de Ervas",
-      description: "Aqui vai a descrição do molho",
+      description: "",
       price: "3,00",
       img: "/sauces/molhoervas.jpeg",
     },
     {
       id: 5,
       title: "Molho Tártaro",
-      description: "Aqui vai a descrição do molho",
+      description: "",
       price: "3,00",
       img: "/sauces/molhotartaro.jpeg",
     },
@@ -54,7 +54,6 @@ export default function Sauces() {
               </LinePrice>
               <ImageSauces
                 alt="Imagem do molho"
-                unptimized
                 width={800}
                 height={1024}
                 src={sauces.img}
