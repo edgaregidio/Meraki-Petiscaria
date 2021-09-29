@@ -15,7 +15,7 @@ export default function Sauces() {
       title: "Ketchup",
       description: "",
       price: "3,00",
-      img: "/sauces/molhobarbecue.jpeg",
+      img: "/sauces/molhoketchup.jpeg",
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ export default function Sauces() {
       title: "Molho de Ervas",
       description: "",
       price: "3,00",
-      img: "/sauces/molhoervas.jpeg",
+      img: "/sauces/molhodeervas.jpeg",
     },
     {
       id: 5,
