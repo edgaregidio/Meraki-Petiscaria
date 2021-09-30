@@ -22,14 +22,14 @@ export default function Sauces() {
       title: "Molho de Alho",
       description: "",
       price: "3,00",
-      img: "/sauces/molhotartaro.jpeg",
+      img: "/sauces/molhodealho.jpeg",
     },
     {
       id: 4,
       title: "Molho de Ervas",
       description: "",
       price: "3,00",
-      img: "/sauces/molhodeervas.jpeg",
+      img: "/sauces/molhoervas.jpeg",
     },
     {
       id: 5,
