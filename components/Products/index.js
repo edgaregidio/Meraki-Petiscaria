@@ -106,6 +106,14 @@ export default function product() {
       img: "/petiscos/filedetilapiaempanado.jpeg",
       details: "700g",
     },
+    {
+      id: 13,
+      title: "Panceta com Mandioca Frita",
+      descripition: "",
+      price: "52,00",
+      img: "/petiscos/pancetacommandioca.jpeg",
+      details: "1kg",
+    },
   ];
 
   return (
