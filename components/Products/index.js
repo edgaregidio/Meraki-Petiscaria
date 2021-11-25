@@ -26,14 +26,14 @@ export default function product() {
       img: "/petiscos/batatacheddar.jpeg",
       details: "500g",
     },
-    {
-      id: 3,
-      title: "Bolinho de costela suina",
-      descripition: "Bolinho de costela suina com Barbecue",
-      price: "36,00",
-      img: "/petiscos/bolinhodecostela.jpeg",
-      details: "400g",
-    },
+    // {
+    //   id: 3,
+    //   title: "Bolinho de costela suina",
+    //   descripition: "Bolinho de costela suina com Barbecue",
+    //   price: "36,00",
+    //   img: "/petiscos/bolinhodecostela.jpeg",
+    //   details: "400g",
+    // },
     {
       id: 4,
       title: "Bolinho de Tilápia",
