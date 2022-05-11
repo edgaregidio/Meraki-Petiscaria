@@ -112,7 +112,7 @@ export default function product() {
       descripition: '',
       price: '43,00',
       img: '/petiscos/foodproducao.jpg',
-      details: ''
+      details: '400g'
     },
     {
       id: 14,
@@ -120,7 +120,7 @@ export default function product() {
       descripition: '',
       price: '43,00',
       img: '/petiscos/foodproducao.jpg',
-      details: ''
+      details: '400g'
     },
     {
       id: 15,
@@ -128,7 +128,7 @@ export default function product() {
       descripition: '',
       price: '38,00',
       img: '/petiscos/foodproducao.jpg',
-      details: ''
+      details: '12ud'
     }
   ]
 
