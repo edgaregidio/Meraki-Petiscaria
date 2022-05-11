@@ -1,48 +1,48 @@
-import React from "react";
-import { ListaSauces, Line2, LinePrice, ImageSauces } from "./styles";
+import React from 'react'
+import { ListaSauces, Line2, LinePrice, ImageSauces } from './styles'
 
 export default function Sauces() {
   const data = [
     {
       id: 1,
-      title: "Barbecue",
-      description: "",
-      price: "3,00",
-      img: "/sauces/molhobarbecue.jpeg",
+      title: 'Barbecue',
+      description: '',
+      price: '3,00',
+      img: '/sauces/molhobarbecue.jpeg'
     },
     {
       id: 2,
-      title: "Ketchup",
-      description: "",
-      price: "3,00",
-      img: "/sauces/molhoketchup.jpeg",
+      title: 'Ketchup',
+      description: '',
+      price: '3,00',
+      img: '/sauces/molhoketchup.jpeg'
     },
     {
       id: 3,
-      title: "Molho de Alho",
-      description: "",
-      price: "3,00",
-      img: "/sauces/molhodealho.jpeg",
+      title: 'Molho de Alho',
+      description: '',
+      price: '3,00',
+      img: '/sauces/molhodealho.jpeg'
     },
     {
       id: 4,
-      title: "Molho de Ervas",
-      description: "",
-      price: "3,00",
-      img: "/sauces/molhoervas.jpeg",
+      title: 'Molho de Ervas',
+      description: '',
+      price: '3,00',
+      img: '/sauces/molhoervas.jpeg'
     },
     {
       id: 5,
-      title: "Molho Tártaro",
-      description: "",
-      price: "3,00",
-      img: "/sauces/molhotartaro.jpeg",
-    },
-  ];
+      title: 'Molho Tártaro',
+      description: '',
+      price: '3,00',
+      img: '/sauces/molhotartaro.jpeg'
+    }
+  ]
 
   return (
     <div>
-      {data.map((sauces) => (
+      {data.map(sauces => (
         <ListaSauces key={sauces.id}>
           <li>
             <h1>{sauces.title}</h1>
@@ -63,5 +63,5 @@ export default function Sauces() {
         </ListaSauces>
       ))}
     </div>
-  );
+  )
 }

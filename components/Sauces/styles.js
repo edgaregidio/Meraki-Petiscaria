@@ -4,20 +4,21 @@ import Image from 'next/image'
 export const ListaSauces = styled.ul`
   display: flex;
   flex-direction: column;
-  margin: 2rem 0;
-  padding: 0 1rem;
-  min-width: 100%;
-  height: auto;
+  justify-content: center;
+  align-items: c;
+  width: 100%;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  margin: 0;
+  margin-bottom: 3rem;
 
-  li {
-    list-style: none;
-  }
-
-  li h1 {
+  h1 {
     color: #ffc107;
+    font-size: 1.2rem;
+    text-transform: uppercase;
     margin: 0;
   }
-  li p {
+  p {
+    font-weight: 200;
     color: #fff;
     margin: 0;
   }
