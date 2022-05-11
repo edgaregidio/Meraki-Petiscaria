@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Image from "next/image";
+import styled from 'styled-components'
+import Image from 'next/image'
 
 export const ProductList = styled.div`
   display: flex;
@@ -22,14 +22,14 @@ export const ProductList = styled.div`
     color: #fff;
     margin: 0;
   }
-`;
+`
 
 export const Line2 = styled.div`
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
-`;
+`
 
 export const LinePrice = styled.div`
   display: flex;
@@ -48,7 +48,7 @@ export const LinePrice = styled.div`
     color: #ffc107;
     font-size: 2.2rem;
   }
-`;
+`
 
 export const Circle = styled.div`
   border: 2px solid #ffc107;
@@ -66,13 +66,15 @@ export const Circle = styled.div`
     color: #fff;
     text-transform: lowercase;
   }
-`;
+`
 
 export const CardPhoto = styled.div`
   display: flex;
   width: 100%;
   height: 20rem;
   object-fit: cover;
-`;
+`
 
-export const ImageProduct = styled(Image)``;
+export const ImageProduct = styled(Image)`
+  border-radius: 8px;
+`
