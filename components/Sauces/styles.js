@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Image from "next/image";
+import styled from 'styled-components'
+import Image from 'next/image'
 
 export const ListaSauces = styled.ul`
   display: flex;
@@ -21,14 +21,14 @@ export const ListaSauces = styled.ul`
     color: #fff;
     margin: 0;
   }
-`;
+`
 
 export const Line2 = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
-`;
+`
 
 export const LinePrice = styled.div`
   display: flex;
@@ -50,6 +50,8 @@ export const LinePrice = styled.div`
     color: #ffc107;
     font-size: 2.2rem;
   }
-`;
+`
 
-export const ImageSauces = styled(Image)``;
+export const ImageSauces = styled(Image)`
+  border-radius: 8px;
+`
